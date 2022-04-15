@@ -10,11 +10,15 @@ class lapiz:
     
     def borrar(self):
         if self.esvalidoparaborrar():
-        print ("El lapiz esta escribiendo")
+        	print ("El lapiz esta escribiendo")
         else:
             print("No se puede borrar")
         
         
         def esvalidoparaborrar(self):
-    return self.tieneborrador
-       
+        	return self.tieneborrador
+
+lapiz=lapiz()
+lapiz.escrib()
+lapiz.tieneborrador=True
+lapiz.borrar()       
